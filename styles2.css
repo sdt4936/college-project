@@ -1,0 +1,18 @@
+
+h1{
+	cursor: default;
+}
+.cont{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.card{
+	cursor: default;
+	box-shadow: 2px 2px 2px 2px #888888;
+	transition: all 1s;
+	padding:  10px;
+}
+.card:hover{
+	transform: scale(1.056);
