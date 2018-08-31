@@ -14759,7 +14759,8 @@ h2.title {
 .description,
 .card-description,
 .footer-big p {
-  color: #999;
+  sty
+  color: rgba(0,0,0,0.7);
 }
 
 .text-warning {
