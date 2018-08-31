@@ -1,27 +1,4 @@
-body{
-	margin: 0px;
-	padding-top: 0px;
-	margin-top: 0px;
-}
-.one-img{
-	display: flex;
-	flex-wrap: wrap;
-}
-a:link {color: black;}      /* unvisited link */
-a:visited {color: black;}   /* visited link */
-a:hover {color: black;}     /* mouse over link */
-a:active {color: black;}
-a{
-	text-decoration: none;
-}
-.upper{
-	display: flex;
-	flex-wrap: wrap;
-}
-.prog{
-	display: flex;
-	align-content: flex-end;
-}
+
 h1{
 	cursor: default;
 }
@@ -33,8 +10,3 @@ h1{
 }
 .card:hover{
 	transform: scale(1.056);
-}
-.t2{
-	text-align: center;
-	padding-left: 20px
-}
