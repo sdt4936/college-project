@@ -965,6 +965,12 @@ kbd kbd {
   box-shadow: none;
 }
 
+a.w3-hover-text-teal {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  color: black;
+}
+
 pre {
   display: block;
   font-size: 87.5%;
@@ -4224,6 +4230,7 @@ tbody.collapse.show {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  float: right;
 }
 
 .navbar-toggler {
@@ -4233,6 +4240,7 @@ tbody.collapse.show {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  float: right;
 }
 
 .navbar-toggler:hover,
