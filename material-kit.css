@@ -965,6 +965,12 @@ kbd kbd {
   box-shadow: none;
 }
 
+a.w3-hover-text-teal {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  color: black;
+}
+
 pre {
   display: block;
   font-size: 87.5%;
@@ -4224,6 +4230,7 @@ tbody.collapse.show {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  float: right;
 }
 
 .navbar-toggler {
@@ -4233,6 +4240,7 @@ tbody.collapse.show {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  float: right;
 }
 
 .navbar-toggler:hover,
@@ -13927,7 +13935,7 @@ textarea {
 .navbar {
   border: 0;
   border-radius: 3px;
-  padding: 0.625rem 0;
+  padding: 0.225rem 0;
   margin-bottom: 20px;
   color: #555;
   background-color: #fff !important;
@@ -14177,7 +14185,7 @@ textarea {
 .navbar.navbar-transparent {
   background-color: transparent !important;
   box-shadow: none;
-  padding-top: 25px;
+  padding-top: 5px;
   color: #fff;
 }
 
@@ -14650,8 +14658,8 @@ h3,
 .h1,
 .h2,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 h4,
